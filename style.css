@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.newsletter{
+    background-image: url(2.jpg);
+    height: 60vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+}
+
+
+.newsletter p{
+    font-size: 35px;
+}
+
+
+form input:nth-child(1){
+    padding: 10px 15px;
+    outline: none;
+    background-color: transparent;
+    border: 2px solid white;
+    color: whitesmoke;
+}
+
+form input::placeholder{
+    color: white;
+}
+
+form input:nth-child(2){
+    padding: 10px 25px;
+    background-color: white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+
+form{
+    margin-top: 20px;
+}
